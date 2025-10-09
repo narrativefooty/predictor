@@ -1,0 +1,106 @@
+@font-face {
+  font-family: prem; /* set name */
+  src: url("./static/prem.ttf"); /* url of the font */
+}
+*{
+    margin: 0;
+    font-family: prem;
+    color:white
+}
+.navBar{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: auto;
+  width: 100%;
+  justify-content: center;
+  gap:20px;
+  padding:5px;
+  background-image:linear-gradient(to right, rgba(0, 89, 255, 0.1), rgba(0, 123, 255, 0.5), rgba(0, 72, 255, 0.1));
+}
+.navBar Link{
+    background-color: transparent;
+    border:none;
+    padding:10px;
+    width:auto;
+}
+.nav-item{
+    text-decoration: none;
+}
+
+.titleText{
+    margin-top:50px;
+}
+#title{
+    font-size: 90px;
+}
+.topBar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap:25px;
+  background-image: linear-gradient(rgb(0, 206, 216,0.8), rgba(0, 47, 255, 0.9));
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom; 
+  background-size: cover;
+  height:auto;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+  justify-content: center; 
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center; 
+}
+.panel{
+  background-color: rgb(0, 151, 185);
+  border-radius: 15%;
+  width:30rem;
+  text-align: center;
+  height:35rem;
+  margin-bottom: 15px;
+  box-shadow: 0 0 25px 5px rgba(22, 114, 160, 0.411), 0 0 10px 3px rgba(0,0,0);
+  padding:15px;
+}
+#signup-panel{
+  padding:25px;
+  height:12rem;
+  border-radius: 3%;
+  margin-top:25px;
+}
+#center{
+  display: flex;
+  justify-content: center;
+  margin:0;
+ padding:20px;
+ height:100vh;
+ overflow:hidden;
+}
+#signup-items{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.background{
+  background-image: linear-gradient(rgba(100, 100, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./static/background-top.png");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom; 
+  background-size: cover;
+  padding:35px ;
+}
+input{
+  color:black
+}
+button{
+  background-color: rgb(0, 71, 87);
+}
